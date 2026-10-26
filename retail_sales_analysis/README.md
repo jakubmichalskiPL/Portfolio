@@ -1,6 +1,6 @@
 # Retail Sales Analysis
 
-## Project Overview
+## Project Overview 
 
 This project focuses on analyzing sales data from a fictional electronics retail company. The analysis aims to answer key business questions about sales performance, compare results across stores, identify the best-selling products, and explore different customer segments.
 
