@@ -79,7 +79,31 @@ The project will cover a range of SQL techniques, including:
 
 ## Key Findings
 
-*This section will be completed after the analysis is finished and the main findings have been identified.*
+1. Sales Performance
+- Sales increased steadily between 2016 and 2019, reaching approximately $18.26 million in 2019.
+- The strongest year-over-year growth occurred in 2018, when sales increased by 72.32% compared to 2017.
+- In 2020, sales declined by 49.11%, falling to approximately $9.29 million.
+- In 2021, sales decreased further by 88.82%, reaching approximately $1.04 million. This result should be interpreted with caution, as the available data may cover only part of the year.
+2. Store Performance
+- The online sales channel recorded 5,580 orders from 4,547 customers, making it the largest sales channel in the dataset by order volume.
+- Among physical store locations, Nebraska recorded the highest number of orders (629), followed by South Carolina (624), Nevada (622), and Oregon (619).
+- Average order values varied considerably across locations. For example, Mayotte recorded an average order value of $2,791.10, while Armagh recorded $1,849.15.
+- The highest average order value was observed in Northwest Territories ($3,794.00), although this location had only four orders.
+- Nine physical store locations recorded no orders or customers during the analysed period, despite having employees assigned to them.
+- In many locations, average order values were considerably higher than median values, suggesting that high-value orders may influence average order amounts.
+3. Customer Retention
+- Customer retention increased from 20.7% in 2016 to 46.6% in 2018, indicating an improvement in repeat purchasing behaviour during this period.
+- Retention declined to 28.5% in 2019 and dropped further to 4.1% in 2020.
+- The sharp decline in 2020 may indicate difficulties in retaining customers, although data completeness and the observation period should be considered when interpreting this result.
+- Retention for 2021 was not calculated because data for the following year was unavailable.
+4. Consecutive Customer Purchases
+- The analysis identified customers who made purchases in at least three consecutive calendar years, with all identified sequences ending in 2021.
+- At least two customers made purchases in every year from 2016 through 2021, representing six consecutive years of purchasing activity.
+- Other identified customers maintained consecutive purchasing activity for three to five years.
+- The analysis demonstrates how the Gaps and Islands technique can be used to identify continuous patterns in customer purchasing behaviour.
+5. Employee Hierarchy and Order Delivery
+- Recursive SQL queries were used to reconstruct employee reporting structures, identify hierarchy levels, and generate management paths.
+- Order delivery analysis was used to examine the distribution of orders with recorded delivery dates across different countries.
 
 ## Project Status
 
