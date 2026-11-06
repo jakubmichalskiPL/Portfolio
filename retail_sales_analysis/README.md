@@ -44,6 +44,14 @@ The additional `dim_employees` table also enables recursive SQL queries for expl
 - `SQL/02_data_preparation/` — data prepared in Power Query for database import, SQL scripts for creating tables and relationships, and screenshots documenting the data preparation process.
 - `SQL/03_analysis/` — SQL queries developed for sales analysis and additional analytical challenges.
 
+## Entity Relationship Diagram
+
+The following diagram illustrates the database structure,
+including the relationships between the sales fact table
+and the dimension tables.
+
+![Database ERD](02_data_preparation/ERD_Schema.png)
+
 ## SQL Topics
 
 The project will cover a range of SQL techniques, including:
