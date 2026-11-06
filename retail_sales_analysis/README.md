@@ -52,6 +52,19 @@ and the dimension tables.
 
 ![Database ERD](02_data_preparation/ERD_Schema.png)
 
+## SQL Analysis
+
+The project includes several SQL analyses covering sales performance, customer behaviour, order delivery, and employee management structures.
+
+| SQL Script | Description |
+|---|---|
+| `store_overview.sql` | Compares store performance based on store size, number of orders, customers and employees, as well as average, median, minimum and maximum order values. |
+| `year_over_year_sales.sql` | Calculates annual sales values and compares them with the previous year, including absolute and percentage year-over-year changes. |
+| `customer_retention.sql` | Calculates annual customer retention rates by measuring the percentage of customers who make a purchase in the following calendar year. |
+| `consecutive_customer_purchases.sql` | Identifies customers who made purchases in at least three consecutive years, with sequences ending in the latest available year (2021). |
+| `employee_hierarchy.sql` | Explores employee reporting structures by identifying hierarchy levels and generating management paths from employees to their subordinates. |
+| `order_with_delivery.sql` | Analyses the number of orders with a recorded delivery date across different countries. |
+
 ## SQL Topics
 
 The project will cover a range of SQL techniques, including:
