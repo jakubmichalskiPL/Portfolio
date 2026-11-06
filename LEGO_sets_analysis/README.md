@@ -33,7 +33,7 @@ The analysis includes information such as:
 - Number of pieces
 - Minifigure availability
 
-*Dataset source: [Add dataset source here]*
+*Dataset source: https://mavenanalytics.io/data-playground/lego-sets*
 
 ## Dashboard Preview
 
@@ -41,13 +41,13 @@ The analysis includes information such as:
 
 The overview dashboard presents key statistics about LEGO sets, including the number of sets and themes, average and median set prices, and comparisons between different themes.
 
-![LEGO Sets - Overall Dashboard](images/lego-overall.png)
+![LEGO Sets - Overall Dashboard](LEGO_report_page_1.png)
 
 ### Decade Analysis
 
 The decade analysis focuses on changes in LEGO production over time, including the number of sets released, average and median piece counts, and the development of LEGO themes.
 
-![LEGO Sets - Decade Analysis](images/lego-decades.png)
+![LEGO Sets - Decade Analysis](LEGO_report_page_1.png)
 
 ## Key Findings
 
